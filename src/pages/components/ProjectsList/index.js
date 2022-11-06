@@ -9,7 +9,6 @@ function ProjectsList() {
     fetch(
       'https://archshop.com.br/_next/data/ZlPf6XjT7pbXbrAeKjYKI/todos-os-projetos.json',
       {
-        method: 'GET',
         mode: 'cors',
       },
     )
