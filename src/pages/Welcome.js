@@ -1,11 +1,14 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
 
 //Components
-import Navbar from './components/Navbar';
+import ProjectsList from './components/ProjectsList';
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <ProjectsList />
+    </>
+  );
 }
 
 export default App;

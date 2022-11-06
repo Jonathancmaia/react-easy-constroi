@@ -13,11 +13,11 @@ import Footer from './pages/components/Footer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Navbar />
     <Container fluid>
-      <Navbar />
       <Welcome />
-      <Footer />
     </Container>
+    <Footer />
   </React.StrictMode>,
 );
 
